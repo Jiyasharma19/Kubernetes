@@ -31,9 +31,9 @@ kubectl cluster-info
 
 #pull an image from docker
 
-docker pull [image name]
+docker pull [dockerusername/image name:tags]
 
-kind load docker-[image name]
+kind load docker-[dockerusername/image name:tags]
 
 
 
